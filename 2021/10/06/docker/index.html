@@ -15,7 +15,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-10-06T21:34:36.212Z">
 <meta property="article:modified_time" content="2021-10-06T21:34:36.212Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="时光">
 <meta name="twitter:card" content="summary">
 
 
@@ -64,21 +64,11 @@
          src="/img/avatar.jpg"/>
 </a>
 <div class="author">
-    <span>John Doe</span>
+    <span>时光</span>
 </div>
 
 <div class="icon">
     
-        
-            <a title="rss"
-               href="/atom.xml"
-               target="_blank">
-                
-                    <svg class="iconfont-svg" aria-hidden="true">
-                        <use xlink:href="#icon-rss"></use>
-                    </svg>
-                
-            </a>
         
     
         
@@ -136,6 +126,20 @@
             
         </div>
     </li>
+    
+        
+            
+                <li>
+                    <div data-rel="算法">
+                        
+                        算法
+                        <small>(1)</small>
+                        
+                    </div>
+                    
+                </li>
+            
+        
     
 </ul>
 <div class="left-bottom">
@@ -214,8 +218,8 @@
     
     <nav id="title-list-nav">
         
-        <a  class="All "
-           href="/2021/10/06/%E8%BF%90%E7%BB%B4/docker/"
+        <a  class="All 算法 "
+           href="/2021/10/06/docker/"
            data-tag="算法"
            data-author="" >
             <span class="post-title" title="docker">docker</span>
@@ -248,13 +252,21 @@
 </aside>
 <div id="post">
     <div class="pjax">
-        <article id="post-运维/docker" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-docker" class="article article-type-post" itemscope itemprop="blogPost">
     
         <h1 class="article-title">docker</h1>
     
     <div class="article-meta">
         
         
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="算法">算法</a>
+            
+        </span>
         
         
         <span class="tag">
@@ -267,7 +279,7 @@
     </div>
     <div class="article-meta">
         
-            Created At : <time class="date" title='Updated At: 2021-10-06 15:19:49'>2021-10-06 14:56</time>
+            Created At : <time class="date" title='Updated At: 2021-10-06 15:42:40'>2021-10-06 14:56</time>
         
     </div>
     <div class="article-meta">
@@ -382,7 +394,7 @@ def read_file(filename):
             id: decodeURI(location.pathname),
             distractionFreeMode: 'false',
             language: 'zh-CN',
-            perPage: parseInt('20',10)
+            perPage: parseInt('10',10)
         })
         gitalk.render('comments')
     })
@@ -477,8 +489,6 @@ def read_file(filename):
     var img_resize = 'default';
     function initArticle() {
         /*渲染对应的表格样式*/
-        
-            $("#post .pjax table").addClass("green_title");
         
 
         /*渲染打赏样式*/
